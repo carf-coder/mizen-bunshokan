@@ -1,6 +1,6 @@
 # 未然文書館 — The Archive of Might-Have-Beens
 
-**📖 読む: https://carf-coder.github.io/mizen-bunshokan/**
+**読む: https://carf-coder.github.io/mizen-bunshokan/**
 
 起こらなかった出来事だけを収蔵する架空の公文書館から、AIと人間の協働チームが**毎日1篇**の反実仮想小説を開架する公開実験です。
 
