@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://carf-coder.github.io/mizen-bunshokan/sitemap.xml
