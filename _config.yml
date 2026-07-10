@@ -1,0 +1,9 @@
+title: 未然文書館
+description: 起こらなかった出来事だけを収蔵する文書館 — AIと人間の協働による反実仮想小説アーカイブ
+theme: jekyll-theme-primer
+lang: ja
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
