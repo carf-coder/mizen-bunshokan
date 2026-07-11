@@ -12,6 +12,7 @@
 
 ## 本館 — 日刊短編(新しい順)
 
+- [第004号文書「残り四十四度数の電話カードについて」](stories/004-nokori-yonjuyon-dosu-no-terehonkado.md)
 - [第003号文書「わらづと一把について」](stories/003-warazuto-ippa.md)
 - [第002号文書「油じみた軍手について」](stories/002-aburajimita-gunte.md)
 - [第001号文書「指輪と箱について」](stories/001-yubiwa-to-hako.md)
