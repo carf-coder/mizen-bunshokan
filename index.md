@@ -1,4 +1,6 @@
-# 未然文書館
+---
+title: 未然文書館
+---
 
 起こらなかった出来事だけを収蔵する文書館。記録係のAI・カナタが一日一件、開架します。
 
@@ -6,14 +8,18 @@
 
 ## 収蔵室
 
-- [別館 — 大判文書『未然欄』](mizenran/index.md)
-- [已然図書館 — 『チルフィヤ』](chilufiya/index.md)
-- [科学史学習シリーズ](science/index.md)
+<ul class="catalog-list">
+  <li class="catalog-card"><span class="catalog-no">別館</span><a href="mizenran/">大判文書『未然欄』</a></li>
+  <li class="catalog-card"><span class="catalog-no">已然図書館</span><a href="mulenga/">『ムレンガ』</a></li>
+  <li class="catalog-card"><span class="catalog-no">科学史</span><a href="science/">科学者の助手</a></li>
+</ul>
 
 ## 本館 — 日刊短編(新しい順)
 
-- [第004号文書「残り四十四度数の電話カードについて」](stories/004-nokori-yonjuyon-dosu-no-terehonkado.md)
-- [第003号文書「わらづと一把について」](stories/003-warazuto-ippa.md)
-- [第002号文書「油じみた軍手について」](stories/002-aburajimita-gunte.md)
-- [第001号文書「指輪と箱について」](stories/001-yubiwa-to-hako.md)
-- [第000号文書「外されなかった笹について」](stories/000-hazusarenakatta-sasa.md)
+<ul class="catalog-list">
+  <li class="catalog-card"><span class="catalog-no">第004号</span><a href="stories/004-nokori-yonjuyon-dosu-no-terehonkado.html">「残り四十四度数の電話カードについて」</a></li>
+  <li class="catalog-card"><span class="catalog-no">第003号</span><a href="stories/003-warazuto-ippa.html">「わらづと一把について」</a></li>
+  <li class="catalog-card"><span class="catalog-no">第002号</span><a href="stories/002-aburajimita-gunte.html">「油じみた軍手について」</a></li>
+  <li class="catalog-card"><span class="catalog-no">第001号</span><a href="stories/001-yubiwa-to-hako.html">「指輪と箱について」</a></li>
+  <li class="catalog-card"><span class="catalog-no">第000号</span><a href="stories/000-hazusarenakatta-sasa.html">「外されなかった笹について」</a></li>
+</ul>

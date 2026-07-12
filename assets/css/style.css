@@ -1,0 +1,163 @@
+/* 未然文書館 — 公文書館の目録カード。紙・活字・整理番号。装飾よりも事務の美しさ。 */
+
+:root {
+  --paper: #faf8f4;
+  --ink: #2b2a28;
+  --ink-soft: #5a5650;
+  --rule: #d8d2c4;
+  --card-bg: #f2ede2;
+  --accent: #a63e2e;
+  --font-body: "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", serif;
+  --font-ui: system-ui, -apple-system, "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #1a1918;
+    --ink: #e8e4dc;
+    --ink-soft: #b5afa2;
+    --rule: #3a382f;
+    --card-bg: #232019;
+    --accent: #d16650;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--paper);
+  color: var(--ink);
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.9;
+}
+
+.wrap {
+  max-width: 38em;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+a { color: var(--ink); text-decoration-color: var(--rule); }
+a:hover, a:focus { color: var(--accent); text-decoration-color: var(--accent); }
+
+/* ヘッダー */
+.site-header {
+  border-bottom: 1px solid var(--rule);
+  padding: 1.75rem 0 1.25rem;
+}
+
+.site-title {
+  font-family: var(--font-body);
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--ink);
+  letter-spacing: 0.04em;
+}
+
+.site-desc {
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  margin: 0.4rem 0 1rem;
+}
+
+.site-nav {
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+}
+
+.site-nav a {
+  text-decoration: none;
+  padding: 0 0.75rem;
+  border-left: 1px solid var(--rule);
+}
+
+.site-nav a:first-child {
+  padding-left: 0;
+  border-left: none;
+}
+
+/* 本文 */
+main.wrap { padding: 2.25rem 1.25rem 3rem; }
+
+.doc h1 {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.doc p { margin: 1.1em 0; }
+
+/* 観測・目録カードの段落(先頭が太字)を別紙の趣で沈める。対応ブラウザのみ(非対応でも本文は読める) */
+.doc p:has(> strong:first-child) {
+  background: var(--card-bg);
+  border-left: 2px solid var(--accent);
+  padding: 0.9em 1.1em;
+  margin: 1.6em 0;
+  font-family: var(--font-ui);
+  font-size: 0.92rem;
+  line-height: 1.75;
+  color: var(--ink-soft);
+}
+
+.doc p:has(> strong:first-child) strong { color: var(--ink); }
+
+.doc hr {
+  border: none;
+  border-top: 1px solid var(--rule);
+  margin: 2rem 0;
+}
+
+/* 目録カード風の一覧(発展ルーティンが生成する索引ページ用) */
+.catalog-list {
+  list-style: none;
+  margin: 1.5rem 0;
+  padding: 0;
+}
+
+.catalog-card {
+  border-top: 2px solid var(--ink);
+  padding: 0.9rem 0;
+  display: flex;
+  gap: 1rem;
+  align-items: baseline;
+}
+
+.catalog-card:last-child { border-bottom: 1px solid var(--rule); }
+
+.catalog-no {
+  font-family: var(--font-ui);
+  font-variant-numeric: tabular-nums;
+  font-size: 0.85rem;
+  color: var(--accent);
+  flex: 0 0 auto;
+  min-width: 4.5em;
+}
+
+.catalog-card a {
+  text-decoration: none;
+}
+
+/* フッター */
+.site-footer {
+  border-top: 1px solid var(--rule);
+  padding: 1.5rem 0 2.5rem;
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+.site-footer a { color: var(--ink-soft); }
+.site-footer .fine { font-size: 0.78rem; margin-top: 0.4rem; }
+
+@media (max-width: 30em) {
+  .site-title { font-size: 1.3rem; }
+  .doc h1 { font-size: 1.2rem; }
+}
