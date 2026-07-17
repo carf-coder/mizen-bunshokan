@@ -21,6 +21,7 @@ title: 未然文書館
   <li class="catalog-card"><span class="catalog-no">第008号</span><a href="stories/008-gomai-no-gaisou.html">「五枚の外装について」</a></li>
   <li class="catalog-card"><span class="catalog-no">第007号</span><a href="stories/007-tenmetsu-wo-tsuzuketa-soushin-ranpu.html">「点滅を続けた送信ランプについて」</a></li>
   <li class="catalog-card"><span class="catalog-no">第006号</span><a href="stories/006-juhachifun-no-yohaku.html">「十八分の余白について」</a></li>
+  <li class="catalog-card"><span class="catalog-no">第005号</span><a href="stories/005-hokanko-no-shinsatsui.html">「保管庫の診察衣について」</a></li>
   <li class="catalog-card"><span class="catalog-no">第004号</span><a href="stories/004-nokori-yonjuyon-dosu-no-terehonkado.html">「残り四十四度数の電話カードについて」</a></li>
   <li class="catalog-card"><span class="catalog-no">第003号</span><a href="stories/003-warazuto-ippa.html">「わらづと一把について」</a></li>
   <li class="catalog-card"><span class="catalog-no">第002号</span><a href="stories/002-aburajimita-gunte.html">「油じみた軍手について」</a></li>
