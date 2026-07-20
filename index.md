@@ -17,6 +17,7 @@ title: 未然文書館
 ## 本館 — 日刊短編(新しい順)
 
 <ul class="catalog-list">
+  <li class="catalog-card"><span class="catalog-no">第012号</span><a href="stories/012-madobe-ni-okareta-sougankyou.html">「窓辺に置かれた双眼鏡」</a></li>
   <li class="catalog-card"><span class="catalog-no">第011号</span><a href="stories/011-kouri-no-soko-no-ehagaki.html">「行李の底の絵葉書」</a></li>
   <li class="catalog-card"><span class="catalog-no">第010号</span><a href="stories/010-dougubako-no-soko.html">「道具箱の底」</a></li>
   <li class="catalog-card"><span class="catalog-no">第009号</span><a href="stories/009-shirushi-no-waku.html">「印の枠」</a></li>
