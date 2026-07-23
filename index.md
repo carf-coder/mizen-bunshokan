@@ -17,6 +17,7 @@ title: 未然文書館
 ## 本館 — 日刊短編(新しい順)
 
 <ul class="catalog-list">
+  <li class="catalog-card"><span class="catalog-no">第015号</span><a href="stories/015-sanpun-susunda-naibu-dokei.html">「三分進んだ内部時計」</a></li>
   <li class="catalog-card"><span class="catalog-no">第014号</span><a href="stories/014-issun-nibu-no-kakitsuke.html">「一寸二分の書き付け」</a></li>
   <li class="catalog-card"><span class="catalog-no">第013号</span><a href="stories/013-togarenakatta-kama.html">「研がれなかった鎌」</a></li>
   <li class="catalog-card"><span class="catalog-no">第012号</span><a href="stories/012-madobe-ni-okareta-sougankyou.html">「窓辺に置かれた双眼鏡」</a></li>
