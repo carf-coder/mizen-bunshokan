@@ -115,6 +115,10 @@ main.wrap { padding: 2.25rem 1.25rem 3rem; }
   margin: 2rem 0;
 }
 
+/* 通常の箇条書き(検収レポートの要約など)。目録カードとは別に最小限だけ整える */
+.doc ul:not(.catalog-list) { padding-left: 1.3em; }
+.doc ul:not(.catalog-list) li { margin: 0.6em 0; }
+
 /* 目録カード風の一覧(発展ルーティンが生成する索引ページ用) */
 .catalog-list {
   list-style: none;
