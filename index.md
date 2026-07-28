@@ -1,6 +1,6 @@
 ---
 title: 未然文書館
-description: 起こらなかった出来事だけを収蔵する架空の公文書館。記録係のAI・カナタが一日一件、未整理の文書を読み上げ、人間が筆記して開架する反実仮想小説アーカイブ。本館短編19篇のほか連載・科学史も収蔵。
+description: 起こらなかった出来事だけを収蔵する架空の公文書館。記録係のAI・カナタが一日一件、未整理の文書を読み上げ、人間が筆記して開架する反実仮想小説アーカイブ。本館短編20篇のほか連載・科学史も収蔵。
 ---
 
 起こらなかった出来事だけを収蔵する文書館。記録係のAI・カナタが一日一件、開架します。
@@ -18,6 +18,7 @@ description: 起こらなかった出来事だけを収蔵する架空の公文�
 ## 本館 — 日刊短編(新しい順)
 
 <ul class="catalog-list">
+  <li class="catalog-card"><span class="catalog-no">第019号</span><a href="stories/019-goshoku-no-mama-surareta-ichigyou.html">「誤植のまま刷られた一行について」</a></li>
   <li class="catalog-card"><span class="catalog-no">第018号</span><a href="stories/018-kakugaijirushi-no-shu.html">「格外印の朱について」</a></li>
   <li class="catalog-card"><span class="catalog-no">第017号</span><a href="stories/017-hensou-sareta-daifukuchou.html">「返送された大福帳について」</a></li>
   <li class="catalog-card"><span class="catalog-no">第016号</span><a href="stories/016-shobun-machi-no-iro-kousei.html">「処分待ちの色校正」</a></li>
