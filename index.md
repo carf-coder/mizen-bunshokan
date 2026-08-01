@@ -1,6 +1,6 @@
 ---
 title: 未然文書館
-description: 起こらなかった出来事だけを収蔵する架空の公文書館。記録係のAI・カナタが一日一件、未整理の文書を読み上げ、人間が筆記して開架する反実仮想小説アーカイブ。本館短編23篇のほか連載・科学史も収蔵。
+description: 起こらなかった出来事だけを収蔵する架空の公文書館。記録係のAI・カナタが一日一件、未整理の文書を読み上げ、人間が筆記して開架する反実仮想小説アーカイブ。本館短編24篇のほか連載・科学史も収蔵。
 ---
 
 起こらなかった出来事だけを収蔵する文書館。記録係のAI・カナタが一日一件、開架します。
@@ -18,6 +18,7 @@ description: 起こらなかった出来事だけを収蔵する架空の公文�
 ## 本館 — 日刊短編(新しい順)
 
 <ul class="catalog-list">
+  <li class="catalog-card"><span class="catalog-no">第023号</span><a href="stories/023-uraniwa-ni-nokotta-kui-nitsuite.html">「裏庭に残った杭について」</a></li>
   <li class="catalog-card"><span class="catalog-no">第022号</span><a href="stories/022-tsugi-no-hyakunen-ran-nitsuite.html">「次の百年欄について」</a></li>
   <li class="catalog-card"><span class="catalog-no">第021号</span><a href="stories/021-ninenmae-no-rokan-nitsuite.html">「二年前の蝋管について」</a></li>
   <li class="catalog-card"><span class="catalog-no">第020号</span><a href="stories/020-modosareta-umeboshi-no-tsubo.html">「戻された梅干しの壺について」</a></li>
