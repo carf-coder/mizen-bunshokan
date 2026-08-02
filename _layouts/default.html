@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: 'ja' }}">
+<html lang="{{ page.lang | default: site.lang | default: 'ja' }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,7 +33,7 @@
 
   <footer class="site-footer">
     <div class="wrap">
-      <p><a href="{{ '/about/' | relative_url }}">AI利用の開示について</a> ・ <a href="{{ '/shikumi/' | relative_url }}">仕組み</a> ・ <a href="{{ '/kensyu-report/' | relative_url }}">検収レポート</a> ・ <a href="{{ '/share/' | relative_url }}">紹介文</a> ・ <a href="{{ '/feed.xml' | relative_url }}">RSS</a></p>
+      <p><a href="{{ '/about/' | relative_url }}">AI利用の開示について</a> ・ <a href="{{ '/shikumi/' | relative_url }}">仕組み</a> ・ <a href="{{ '/kensyu-report/' | relative_url }}">検収レポート</a> ・ <a href="{{ '/share/' | relative_url }}">紹介文</a> ・ <a href="{{ '/feed.xml' | relative_url }}">RSS</a> ・ <a href="{{ '/en/' | relative_url }}">English</a></p>
       <p class="fine">開架時刻 毎朝(不定期・自動)</p>
     </div>
   </footer>
